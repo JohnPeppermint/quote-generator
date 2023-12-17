@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: #e8d2bc;
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 20.5V18H0v-2h20v-2H0v-2h20v-2H0V8h20V6H0V4h20V2H0V0h22v20h2V0h2v20h2V0h2v20h2V0h2v20h2V0h2v20h2v2H20v-1.5zM0 20h2v20H0V20zm4 0h2v20H4V20zm4 0h2v20H8V20zm4 0h2v20h-2V20zm4 0h2v20h-2V20zm4 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2z' fill='%23845532' fill-opacity='0.22' fill-rule='evenodd'/%3E%3C/svg%3E");
+  font-family: "Poppins", sans-serif;
+  /* font-weight: 700; */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-container {
+  width: auto;
+  max-width: 80%;
+  padding: 2vw 3vh;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.quote-text {
+  font-size: 2rem;
+}
+
+.long-quote {
+  font-size: 1.5rem;
+}
+
+.fas {
+  font-size: 1.7rem;
+}
+
+.quote-author {
+  margin-top: 15px;
+  font-size: 1.5rem;
+  font-weight: 800;
+  font-style: italic;
+}
+
+/* media query: tablet or smaller */
+
+@media screen and (max-width: 600px) {
+  .quote-container {
+    margin: auto 10px;
+  }
+
+  .quote-text {
+    font-size: 1rem;
+  }
+
+  .quote-author {
+    margin-top: 15px;
+    font-size: 1rem;
+    font-weight: 800;
+    font-style: italic;
+  }
+}
