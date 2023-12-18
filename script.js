@@ -13,7 +13,7 @@ function newQuote(arr) {
 }
 
 async function getQuotes() {
-  const apiUrl = "https://jacintodesign.github.io/quotes-api/data/quotes.json";
+  const apiUrl = "https://zenquotes.io/api/random";
   try {
     const response = await fetch(apiUrl);
     let apiQuotes = await response.json();
