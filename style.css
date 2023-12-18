@@ -51,7 +51,6 @@ body {
   display: flex;
   justify-content: space-around;
 }
-
 button {
   cursor: pointer;
   font-size: 1rem;
@@ -70,12 +69,10 @@ button:hover {
   filter: brightness(120%);
   transform: translate(0, 0.1rem);
 }
-
 button:active {
   transform: translate(0, 0.3rem);
   box-shadow: 0 0.1rem rgba(255, 255, 255, 0.65);
 }
-
 .twitter-button:hover {
   color: lightskyblue;
 }
